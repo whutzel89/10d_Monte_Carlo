@@ -6,6 +6,7 @@ main.c is an simple C program that usese a random number generator and some simp
 
 ## Table of contents
 * [Installation](#installations)
+* [Technical Overview](#technical-overview)
 * [Usage](#usage)
 * [Setup](#setup)
 * [Contributing](#contributing)
@@ -15,7 +16,7 @@ main.c is an simple C program that usese a random number generator and some simp
 
 This code was developed using [Xcode](https://developer.apple.com/xcode/) on a MAC OS Catalina 10.15.2 with the Apple clang version 11.0.3 (clang-1103.0.32.62) compiler.
 
-##Technical Overview
+## Technical Overview
 
 
 ## Usage
