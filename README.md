@@ -1,13 +1,11 @@
 # Monte_Carlo_Pi
 
-Monte_Carlo_Pi.c is 
+main.c is an simple C program that usese a random number generator and some simple math to approximate pi. 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+This code was developed using [Xcode](https://developer.apple.com/xcode/) on a MAC OS Catalina 10.15.2 with the Apple clang version 11.0.3 (clang-1103.0.32.62) compiler.
 
-```bash
-pip install foobar
-```
+
 
 ## Usage
 
