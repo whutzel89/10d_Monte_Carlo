@@ -1,7 +1,6 @@
-# Foobar
+# Monte_Carlo_Pi
 
-Foobar is a Python library for dealing with word pluralization.
-
+Monte_Carlo_Pi.c is 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
