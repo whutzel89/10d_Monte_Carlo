@@ -18,6 +18,11 @@ This code was developed using [Xcode](https://developer.apple.com/xcode/) on a M
 
 ## Technical Overview
 
+The integral given in the introduction is being evaluted in main.c using the numerical equivalant of the mean value theorem. Recall that the mean value theorem is given by,
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=I&space;=&space;\int&space;f(x)dx&space;=&space;(b-a)\left&space;\langle&space;f&space;\right&space;\rangle" target="_blank"><img src="https://latex.codecogs.com/gif.latex?I&space;=&space;\int&space;f(x)dx&space;=&space;(b-a)\left&space;\langle&space;f&space;\right&space;\rangle" title="I = \int f(x)dx = (b-a)\left \langle f \right \rangle" /></a>.
+
+The code samples for Nmax runs then takes the mean. Because the interval is 0 to 1 in this example the coefficeint (b-a) is 1 and we are just left with the <f>.
 
 ## Usage
 
@@ -30,9 +35,7 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Pull requests are welcome.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
