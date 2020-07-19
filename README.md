@@ -22,7 +22,7 @@ The integral given in the introduction is being evaluted in main.c using the num
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=I&space;=&space;\int&space;f(x)dx&space;=&space;(b-a)\left&space;\langle&space;f&space;\right&space;\rangle" target="_blank"><img src="https://latex.codecogs.com/gif.latex?I&space;=&space;\int&space;f(x)dx&space;=&space;(b-a)\left&space;\langle&space;f&space;\right&space;\rangle" title="I = \int f(x)dx = (b-a)\left \langle f \right \rangle" /></a>.
 
-The code samples for Nmax runs then takes the mean. Because the interval is 0 to 1 in this example the coefficeint (b-a) is 1 and we are just left with the <f>. This is integral can be evaluated analytically and we can see that the solution is 155/6. as we increase the number of runs by increasing the Nmax of the outer loop we error decrease
+The code samples for Nmax runs then takes the mean. Because the interval is 0 to 1 in this example the coefficeint (b-a) is 1 and we are just left with the <f>. This is integral can be evaluated analytically and we can see that the solution is 155/6. As we increase the number of runs by increasing the Nmax of the outer loop in main.c The error decreases somwhat linearly.
 
 ## Usage
 
