@@ -30,13 +30,15 @@ The integral given in the introduction is being evaluted in main.c using the num
 
 The code samples for Nmax runs then takes the mean. Because the interval is 0 to 1 in this example the coefficeint (b-a) is 1 and we are just left with the <f>. This is integral can be evaluated analytically and we can see that the solution is 155/6. As we increase the number of runs by increasing the Nmax of the outer loop in main.c The error decreases somwhat linearlyas shown in the below figure:
   ![Linear dependence of eps](https://github.com/whutzel89/10d_Monte_Carlo/blob/master/quick_plot_error.png)
+  
+If we push the code further we shoud find that for very large numbers of runs we start to run against machine precision issues.
 
 ## Authors
 
-William Hutze -- initial commit
+**William Hutzel** -- initial commit
 
 ## Contributing
 Pull requests are welcome and colloboration is encouraged.
 
 ## License
-[GNU](https://choosealicense.com/licenses/gpl-3.0/)
+[GPLV3](https://choosealicense.com/licenses/gpl-3.0/)
