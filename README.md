@@ -1,6 +1,8 @@
 # 10D_Monte_Carlo
 [![Generic badge](https://img.shields.io/badge/<GCC>-<11.0.3>-<COLOR>.svg)](https://shields.io/) 
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+
 
 
 
@@ -34,7 +36,7 @@ The code samples for Nmax runs then takes the mean. Because the interval is 0 to
 William Hutze -- initial commit
 
 ## Contributing
-Pull requests are welcome.
+Pull requests are welcome and colloboration is encouraged.
 
 ## License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/)
